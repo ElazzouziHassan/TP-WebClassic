@@ -154,10 +154,14 @@ nav .actions #user img{
 
 /* Testimonials Section Styles */
 .testimonials{
+  background: #65D9D4;
+  /* height: calc(100dvh - 9dvh); */
+}
+.testimonials h2{
   margin: 0 80px;
 }
-/* .testimonials h2{} */
 .testimonials .testi-content{
+  margin: 0 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -165,9 +169,74 @@ nav .actions #user img{
 .testimonials .testi-content .left{
   flex: 1;
 }
-.testimonials .testi-content .right{
+.testimonials .testi-content .left .card{
+  background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.testimonials .testi-content .left .card p{
+  font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+.testi-content .left .user {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.testi-content .left .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.testi-content .left .user span {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.testi-content .actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testi-content .actions .nb-testi,
+.testi-content .actions .switcher {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.testi-content .actions .nb-testi span,
+.testi-content .actions .switcher span {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.testi-content .right {
   flex: 1;
 }
+
+.testi-content .right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testi-content .right ul li {
+  margin: 0 5px;
+}
+
+.testi-content .right ul li img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
 /* End of Testimonials Section Styles */
 
 /* Contact-us Section Styles */
