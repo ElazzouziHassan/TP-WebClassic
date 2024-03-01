@@ -172,6 +172,7 @@ nav .actions #user img{
 
 /* Contact-us Section Styles */
 .contact-us{
+  /* height: calc(100dvh - 9dvh); */
   margin: 0 80px;
 }
 /* .contact-us h1{} */
@@ -187,6 +188,54 @@ nav .actions #user img{
 /* .contact-us .main .left h4{} */
 .contact-us .main .right{
   flex: 1;
+}
+.contact-us .main .right form{
+  max-width: 100%;
+  margin: 1rem auto;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.message textarea{
+  resize: vertical;
+}
+.contact-us .main .right form .full-name{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+}
+.contact-us .main .right form .full-name .f-name{
+  flex: 1;
+}
+.contact-us .main .right form .full-name .l-name{
+  flex: 1;
+}
+form button{
+  width: 10dvw;
+  height: 5dvh;
+  background: #59D5E0;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  border: none;
+  transform: skew(-20deg);
 }
 /* End of Contact-us Section Styles */
 
