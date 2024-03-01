@@ -41,9 +41,25 @@ nav .actions #user img{
 /* End of Nav-Bar Styles */
 
 /* Hero Section Styles */
+.hero-section{}
+.hero-section left{}
+.hero-section left h2{}
+.hero-section left span{}
+.hero-section left button{}
+.hero-section right{}
+.hero-section right img{}
 /* End of Hero Section Styles */
 
 /* Top Bikes Section Styles */
+.top-bikes{}
+.top-bikes left{}
+.top-bikes left h3{}
+.top-bikes left img{}
+.top-bikes right{}
+.top-bikes right h2{}
+.top-bikes right p{}
+.top-bikes right input{}
+.top-bikes right span{}
 /* End of Top Bikes Section Styles */
 
 /* About us Section Styles */
