@@ -106,11 +106,20 @@ nav .actions #user img{
 /* End of Hero Section Styles */
 
 /* Top Bikes Section Styles */
-.top-bikes{}
-.top-bikes .left{}
+.top-bikes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 80px;
+}
+.top-bikes .left{
+  flex: 1;
+}
 .top-bikes .left h3{}
 .top-bikes .left img{}
-.top-bikes .right{}
+.top-bikes .right{
+  flex: 1;
+}
 .top-bikes .right h2{}
 .top-bikes .right p{}
 .top-bikes .right input{}
@@ -127,4 +136,39 @@ nav .actions #user img{
 /* End of Contact-us Section Styles */
 
 /* Footer Styles */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10dvh;
+  background: #46BFBA;
+}
+footer .left{
+  flex: 1;
+  margin-left: 80px;
+}
+footer .left span{
+  font-weight: 500;
+  font-size: 1.3em;
+  line-height: .7em;
+  color: white;
+}
+footer .right{
+  flex: 1;
+  margin-right: 80px;
+}
+footer .right ul{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-left: 70%;
+  
+}
+footer .right ul li{
+  cursor: pointer;
+}
+footer .right ul li img{
+  width: 20px;
+  color: aliceblue;
+}
 /* End of Footer Styles */
