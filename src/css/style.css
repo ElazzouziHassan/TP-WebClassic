@@ -4,6 +4,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  font-family: sans-serif;
 }
 /* Nav-Bar Styles */
 nav{
@@ -16,16 +17,21 @@ nav{
 nav .logo{}
 nav .logo a{}
 nav .logo a img{
-  width: 10vw;
+  width: 12dvw;
+  height: 5dvh;
 }
 nav .menu{}
 nav .menu ul{
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 2.5em;
 }
 nav .menu ul li{}
-nav .menu ul li a{}
+nav .menu ul li a{
+  color: black;
+  font-weight: 500;
+  font-size: 1.1em;
+}
 nav .actions{
   display: flex;
   align-items: center;
@@ -33,11 +39,11 @@ nav .actions{
 }
 nav .actions #shopping-bag{}
 nav .actions #shopping-bag img{
-  width: 2em;
+  width: 1.5em;
 }
 nav .actions #user img{
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border: solid 2px green;
   padding: 2px;
   border-radius: 50%;
