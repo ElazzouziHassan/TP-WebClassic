@@ -8,25 +8,32 @@
 }
 /* Nav-Bar Styles */
 nav{
+  background-color: rgb(254, 255, 255);
   height: 9dvh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 80px;
+  /* margin: 0 80px; */
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  border-bottom: solid .5px darkolivegreen;
 }
-nav .logo{}
-nav .logo a{}
+nav .logo{
+  margin-left: 80px;
+}
+/* nav .logo a{} */
 nav .logo a img{
   width: 12dvw;
   height: 5dvh;
 }
-nav .menu{}
+/* nav .menu{} */
 nav .menu ul{
   display: flex;
   align-items: center;
   gap: 2.5em;
 }
-nav .menu ul li{}
+/* nav .menu ul li{} */
 nav .menu ul li a{
   color: black;
   font-weight: 500;
@@ -36,8 +43,9 @@ nav .actions{
   display: flex;
   align-items: center;
   gap: 4rem;
+  margin-right: 80px;
 }
-nav .actions #shopping-bag{}
+/* nav .actions #shopping-bag{} */
 nav .actions #shopping-bag img{
   width: 1.5em;
 }
@@ -115,22 +123,22 @@ nav .actions #user img{
 .top-bikes .left{
   flex: 1;
 }
-.top-bikes .left h3{}
-.top-bikes .left img{}
+/* .top-bikes .left h3{} */
+/* .top-bikes .left img{} */
 .top-bikes .right{
   flex: 1;
 }
-.top-bikes .right h2{}
-.top-bikes .right p{}
-.top-bikes .right input{}
-.top-bikes .right span{}
+/* .top-bikes .right h2{} */
+/* .top-bikes .right p{} */
+/* .top-bikes .right input{} */
+/* .top-bikes .right span{} */
 /* End of Top Bikes Section Styles */
 
 /* About us Section Styles */
 .about-us{
   margin: 0 80px;
 }
-.about-us h2{}
+/* .about-us h2{} */
 .about-us .about-us-content{
   display: flex;
   align-items: center;
@@ -148,7 +156,7 @@ nav .actions #user img{
 .testimonials{
   margin: 0 80px;
 }
-.testimonials h2{}
+/* .testimonials h2{} */
 .testimonials .testi-content{
   display: flex;
   align-items: center;
@@ -166,7 +174,7 @@ nav .actions #user img{
 .contact-us{
   margin: 0 80px;
 }
-.contact-us h1{}
+/* .contact-us h1{} */
 .contact-us .main{
   display: flex;
   align-items: center;
@@ -175,8 +183,8 @@ nav .actions #user img{
 .contact-us .main .left{
   flex: 1;
 }
-.contact-us .main .left h2{}
-.contact-us .main .left h4{}
+/* .contact-us .main .left h2{} */
+/* .contact-us .main .left h4{} */
 .contact-us .main .right{
   flex: 1;
 }
@@ -219,3 +227,4 @@ footer .right ul li img{
   color: aliceblue;
 }
 /* End of Footer Styles */
+
