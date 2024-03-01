@@ -14,8 +14,10 @@ nav{
   margin: 0 80px;
 }
 nav .logo{}
-nav .logo h1{}
-nav .logo h1 a{}
+nav .logo a{}
+nav .logo a img{
+  width: 10vw;
+}
 nav .menu{}
 nav .menu ul{
   display: flex;
@@ -29,7 +31,10 @@ nav .actions{
   align-items: center;
   gap: 4rem;
 }
-nav .actions span{}
+nav .actions #shopping-bag{}
+nav .actions #shopping-bag img{
+  width: 2em;
+}
 nav .actions #user img{
   width: 40px;
   height: 40px;
@@ -46,28 +51,31 @@ nav .actions #user img{
   align-items: center;
   margin: 0 80px;
 }
-.hero-section left-side{
+.hero-section .left-side{
   flex: 1;
 }
-.hero-section left-side h2{}
-.hero-section left-side span{}
-.hero-section left-side button{}
-.hero-section right-side{
+.hero-section .left-side h2{}
+.hero-section .left-side span{}
+.hero-section .left-side button{}
+.hero-section .right-side{
   flex: 1;
 }
-.hero-section right-side img{}
+.hero-section .right-side img{
+  width: 60vw;
+  transform: scaleX(-1);
+}
 /* End of Hero Section Styles */
 
 /* Top Bikes Section Styles */
 .top-bikes{}
-.top-bikes left{}
-.top-bikes left h3{}
-.top-bikes left img{}
-.top-bikes right{}
-.top-bikes right h2{}
-.top-bikes right p{}
-.top-bikes right input{}
-.top-bikes right span{}
+.top-bikes .left{}
+.top-bikes .left h3{}
+.top-bikes .left img{}
+.top-bikes .right{}
+.top-bikes .right h2{}
+.top-bikes .right p{}
+.top-bikes .right input{}
+.top-bikes .right span{}
 /* End of Top Bikes Section Styles */
 
 /* About us Section Styles */
