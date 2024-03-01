@@ -127,6 +127,21 @@ nav .actions #user img{
 /* End of Top Bikes Section Styles */
 
 /* About us Section Styles */
+.about-us{
+  margin: 0 80px;
+}
+.about-us h2{}
+.about-us .about-us-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-us .about-us-content .left{
+  flex: 1;
+}
+.about-us .about-us-content .right{
+  flex: 1;
+}
 /* End of About us Section Styles */
 
 /* Testimonials Section Styles */
