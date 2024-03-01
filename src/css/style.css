@@ -41,13 +41,20 @@ nav .actions #user img{
 /* End of Nav-Bar Styles */
 
 /* Hero Section Styles */
-.hero-section{}
-.hero-section left{}
-.hero-section left h2{}
-.hero-section left span{}
-.hero-section left button{}
-.hero-section right{}
-.hero-section right img{}
+.hero-section{
+  display: flex;
+  align-items: center;
+}
+.hero-section left-side{
+  flex: 1;
+}
+.hero-section left-side h2{}
+.hero-section left-side span{}
+.hero-section left-side button{}
+.hero-section right-side{
+  flex: 1;
+}
+.hero-section right-side img{}
 /* End of Hero Section Styles */
 
 /* Top Bikes Section Styles */
