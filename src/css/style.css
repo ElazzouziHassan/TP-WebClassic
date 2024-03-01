@@ -7,7 +7,7 @@
 }
 /* Nav-Bar Styles */
 nav{
-  height: 9vh;
+  height: 9dvh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,20 +49,34 @@ nav .actions #user img{
 .hero-section{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 0 80px;
 }
 .hero-section .left-side{
-  flex: 1;
+  
+  background: greenyellow;
+  height: calc(100dvh - 9dvh);
+  width: 50dvw;
 }
 .hero-section .left-side h2{}
 .hero-section .left-side span{}
 .hero-section .left-side button{}
 .hero-section .right-side{
-  flex: 1;
+  background: yellow;
+  display: flex;
+  align-items: center;
+  width: 50dvw;
+  height: calc(100dvh - 9dvh);
 }
 .hero-section .right-side img{
-  width: 60vw;
+  width: 90%;
   transform: scaleX(-1);
+  mix-blend-mode: multiply;
+  display: block; 
+  width: 100%; 
+  max-width: 100%; 
+  margin-right: auto; 
+  margin-left: 0;
 }
 /* End of Hero Section Styles */
 
