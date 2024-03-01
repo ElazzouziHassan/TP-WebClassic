@@ -145,6 +145,21 @@ nav .actions #user img{
 /* End of About us Section Styles */
 
 /* Testimonials Section Styles */
+.testimonials{
+  margin: 0 80px;
+}
+.testimonials h2{}
+.testimonials .testi-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonials .testi-content .left{
+  flex: 1;
+}
+.testimonials .testi-content .right{
+  flex: 1;
+}
 /* End of Testimonials Section Styles */
 
 /* Contact-us Section Styles */
