@@ -133,6 +133,23 @@ nav .actions #user img{
 /* End of Testimonials Section Styles */
 
 /* Contact-us Section Styles */
+.contact-us{
+  margin: 0 80px;
+}
+.contact-us h1{}
+.contact-us .main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-us .main .left{
+  flex: 1;
+}
+.contact-us .main .left h2{}
+.contact-us .main .left h4{}
+.contact-us .main .right{
+  flex: 1;
+}
 /* End of Contact-us Section Styles */
 
 /* Footer Styles */
